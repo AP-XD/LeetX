@@ -21,13 +21,10 @@ class Solution:
             j=copy.deepcopy(b)
             flag=1
             o=0
-            for i in range(n):
-                if j[i]<=a:
-                    j[i]=-1
             c=0
             s=0
             for i in range(n):
-                if j[i]==-1 :
+                if j[i]<=a :
                     s+=1
                 else:
                     s=0
