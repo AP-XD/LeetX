@@ -36,7 +36,7 @@ class Solution:
                     c+=1
                 if c==m:
                     res=min(res,a)
-                    print(res)
+                    # print(res)
                     o=1
                     ult=1
                     break
