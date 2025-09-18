@@ -4,20 +4,20 @@ class Solution:
         n=len(b)
         if m*k>n:
             return -1
-        l=0
+        l=min(b)
         s=0
         c=0
         o=0
         ult=0
         res=max(b)
-        q=list(set(copy.deepcopy(b)))
+        # q=list(set(copy.deepcopy(b)))
         
-        q.sort()
+        # q.sort()
         
-        h=len(q)
+        h=max(b)
         while l<=h:
             mid=(l+h)//2
-            a=q[mid]
+            a=mid
             j=copy.deepcopy(b)
             flag=1
             o=0
