@@ -18,7 +18,7 @@ class Solution:
         while l<=h:
             mid=(l+h)//2
             a=mid
-            j=copy.deepcopy(b)
+            j=b
             flag=1
             o=0
             c=0
